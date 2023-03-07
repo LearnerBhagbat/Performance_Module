@@ -1,0 +1,10 @@
+.img {
+    /* margin: auto;
+    float: right;
+    clear: both;
+    max-width: 7%;
+    height: 100%;
+    overflow: auto; */
+    position: relative;
+    top: 50px;
+  }

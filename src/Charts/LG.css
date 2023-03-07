@@ -1,0 +1,13 @@
+.line{
+    justify-content: center;
+}
+.pieG1{
+    border: 10cm;
+    display: flex;
+    justify-content: center;
+}
+.pieG2{
+    border: 10cm;
+    display: flex;
+    justify-content: center;
+}
