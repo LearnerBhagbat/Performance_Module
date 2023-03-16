@@ -5,9 +5,10 @@ import U from '../Img/U.png'
 const Profile = () => {
     return (
 
+
         <div className="P">
             <h1>Student Profile</h1>
-            <img src={ U } alt="Student Profile Picture" />
+            <img src={ U } alt="picture" />
             <h2>Personal Information</h2>
             <p>Name: John Doe</p>
             <p>Student ID: 1234567</p>
