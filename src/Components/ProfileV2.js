@@ -1,5 +1,6 @@
-import React from 'react'
-import 'ProfileV2.css'
+import React from 'react';
+import './NewProfile.css';
+
 const NewProf = () => {
     return ( 
 
@@ -11,8 +12,8 @@ const NewProf = () => {
       <div className="col-lg-4">
         <div className="card shadow-sm">
           <div className="card-header bg-transparent text-center">
-            <img className="profile_img" src="https://source.unsplash.com/600x300/?student" alt="student dp" />
-            <h3>Ishmam Ahasan Samin</h3>
+            <img className="profile_img" src="https://w.wallhaven.cc/full/1p/wallhaven-1p398w.jpg" alt="student dp" />
+            <h3>User-1</h3>
           </div>
           <div className="card-body">
             <p className="mb-0"><strong className="pr-1">Student ID:</strong>321000001</p>
@@ -56,7 +57,7 @@ const NewProf = () => {
             </table>
           </div>
         </div>
-          <div style="height: 26px"></div>
+          <div className="divider"></div>
         <div className="card shadow-sm">
           <div className="card-header bg-transparent border-0">
             <h3 className="mb-0"><i className="far fa-clone pr-1"></i>Other Information</h3>

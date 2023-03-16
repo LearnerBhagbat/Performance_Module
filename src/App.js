@@ -3,11 +3,10 @@ import React from 'react';
 import LineGraph from './Charts/LineGraph';
 // import PieGraph from './Charts/PieGraph';
 import Navbar from './Components/Navbar';
-import UserProfile from './Components/UserProfile';
-import U from "./Img/U.png"
+// import UserProfile from './Components/UserProfile';
+// import U from "./Img/U.png"
 import Data from './Charts/Data';
-import ReportCard from './Components/ReportCard';
-import
+import NewProf from './Components/ProfileV2';
 
 
 
@@ -20,23 +19,24 @@ function App() {
       </h1>
 
       <div className="lineG">
-        <LineGraph />
       </div>
 
-      <div className="userP">
+      {/* <div className="userP">
         <UserProfile name="User"
-          avatar={U}
-          bio="Lorem"
-          email="nobody@gmail.com"
+        avatar={U}
+        bio="Lorem"
+        email="nobody@gmail.com"
           location="Bindekhapur"
           website="nobody.com"
-        ></UserProfile>
-      </div>
+          ></UserProfile>
+        </div> */}
+
+      <NewProf></NewProf>
 
       <Data></Data>
-      <ReportCard> </ReportCard>
 
-    
+        <LineGraph />
+
     </div>
   );
 }
